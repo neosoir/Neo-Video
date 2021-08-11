@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+
+    <!--Header-->
+    <link rel="stylesheet" href="../css/styles_header.css">
+
+    <!--Login-->
+    <link rel="stylesheet" href="./css/styles_login.css">
+
+    <!--Footer-->
+    <link rel="stylesheet" href="../css/styles_footer.css">
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+</head>
+<style>
+    body
+{
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    background: linear-gradient(#21c08b, #ab88ff);
+}
+
+</style>
+<body>
+
+    <header class="header">
+        <a href="../Index/index.html">
+            <img class="header__img" src="../assets/img/logo.png" alt="logo_header">
+        </a>
+    </header>
+
+    <section class="login">
+        <section class="login__container">
+            <h2>Inicia Sesión</h2>
+            <form class="login__container--form">
+                <input class="input" type="text" placeholder="Correo">
+                <input class="input" type="text" placeholder="Contraseña">
+                <button class="button">Iniciar sesión</button>
+                <div class="login__container--remember-me">
+                    <label>
+                        <input type="checkbox" id="cbox1" value="checkbox">Recuérdame
+                    </label>
+                    <a href="/">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__container--social-media">
+                <div><img src="./img/google-icon.jpg" alt="Google">
+                    Inicia sesión con Google
+                </div>
+                <div><img src="./img/twitter-icon.png" alt="Google">
+                    Inicia sesión con Twitter
+                </div>
+            </section>
+            <p class="login__container--register">
+                No tengo niguna cuenta <a href="../Register/register.html">Regístate</a>
+            </p>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="">Términos de uso</a>
+        <a href="">Declaración de privacidad</a>
+        <a href="">Centro de ayuda</a>
+    </footer>
+</body>
+</html>
