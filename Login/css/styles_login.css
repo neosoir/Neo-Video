@@ -20,7 +20,7 @@
     color: white;
     padding: 60px 68px 40px;
     min-height: 700px;
-    width:300px;
+    width:40%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -131,16 +131,3 @@
     text-decoration: underline; 
 }
 
-/*Version Responsive*/
-
-@media only screen and (max-width: 600px)
-{
-    .login__container
-    {
-        background-color: transparent;
-        border: none;
-        padding: 0px;
-        width: 100%;
-    }
-
-} 

@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px)
+{
+    /*Registro*/
+    .register__container
+    {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+    /*Login*/
+    .login__container
+    {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+} 

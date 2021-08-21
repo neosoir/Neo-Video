@@ -2,10 +2,21 @@
 *
 {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .grid-container
 {
     max-width: 1500px;
     margin: auto;
+}
+
+body
+{
+
+    font-family: 'Muli', sans-serif;
+/*     background: linear-gradient(#21c08b, #ab88ff); */
+
+background: linear-gradient(#30083a, #842a97, #7256b9);
 }

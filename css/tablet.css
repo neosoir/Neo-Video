@@ -1,0 +1,19 @@
+/*Version Responsive*/
+
+@media screen and (max-width: 900px)
+{
+    /*Registro*/
+    .register__container
+    {
+        width: 60%;
+    }
+
+    /*Login*/
+    .login__container
+    {
+        width: 60%;
+    }
+
+} 
+
+
