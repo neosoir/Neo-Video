@@ -3,6 +3,7 @@
 .browser
 {
     height: 300px;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +14,7 @@
 {
     color: white;
     font-size: 25px;
-    padding: 10px;
+    padding: 30px;
 }
 
 .input

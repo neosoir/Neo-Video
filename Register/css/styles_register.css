@@ -8,6 +8,7 @@
     flex-direction: column;
     padding: 0px 30px;
     min-height: calc(100vh - 200px);
+    min-width: 320px;
 }
 
 /*Contenedor de datos del registro*/
@@ -30,6 +31,7 @@
 {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .input

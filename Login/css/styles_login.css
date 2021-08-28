@@ -8,6 +8,7 @@
     flex-direction: column;
     padding: 0px 30px;
     min-height: calc(100vh - 200px);
+    min-width: 320px;
 }
 
 /*Contenedor de datos de inicio de sesion*/
@@ -116,6 +117,7 @@
 .login__container--register
 {
     font-size: 14px ;
+    text-align: center;
 }
 
 .login__container--register a
